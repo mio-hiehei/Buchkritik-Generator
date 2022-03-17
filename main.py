@@ -6,6 +6,9 @@ app = Flask(__name__)
 # http://www.compjour.org/lessons/flask-single-page/multiple-dynamic-routes-in-flask/
 
 from get_book_critique import *
+from create_word_lists import *
+
+
 
 BOOK_TITLE_TEMPLATE = Template("""
                 <p style = "font-size:24px;">${book_title}</p>
@@ -16,7 +19,15 @@ BOOK_TITLE_TEMPLATE = Template("""
 @app.route('/')
 def homepage():
 
-    book_critique = get_book_critique()
+    book_critique = get_book_critique(
+        book_title_list=book_title_list,
+                      adjective_list = adjective_list,
+                      objekt_list = objekt_list,
+                      verb_list = verb_list,
+                      was_list = was_list,
+                      wessen_list = wessen_list,
+                      wowann_list = wowann_list)
+
     book_title = book_critique["book_title"]
     name = book_critique["name"]
     sentence = book_critique["sentence"]

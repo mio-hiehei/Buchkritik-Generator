@@ -1,7 +1,6 @@
 # create word lists
 
 book_title_list = ["Tango in Tansania",
-                  "Laptopkabel aufgebraucht",
                   "Kaffee und Kuchen mit Helmut Sonderbarke",
                    "Die Reise nach Danzig",
                    "Das Zelt am Rheinstrand",
@@ -71,6 +70,8 @@ adjective_list = ["verschwurbelten",
                   "ästethisch ansprechenden",
                   "verrückten",
                   "martialischen"]
+
+
 objekt_list = [["Kurzgeschichte","f"],
                ["Kochbuch","m"],
                ["Riesenschinken","m"],
@@ -112,13 +113,12 @@ verb_list = [["umreißt","",""],
              ["intepretiert",""],"",
              ["veranschaulicht","",""],
              ["schreibt", "über",""],
-             ["erzählt", "über",""],
-             ["zieht","über", "her"],
-             ["kackt", "über", "ab",],
-             ["regt", "sich über", "auf"],
-             ["echauffiert sich"," über",""],
-             ["erregt sich","an",""],
-             ["","",""],
+             ["erzählt", "über",""]
+             #["zieht","über", "her"],
+             #["kackt", "über", "ab",],
+             #["regt", "sich über", "auf"],
+             #["echauffiert sich"," über",""],
+             #["erregt sich","an",""]
              ]
 
 
@@ -145,6 +145,7 @@ was_list = ["das Leben",
             "die zahllosen Liebschaften und Affären",
             "das Leben und Leiden",
             "die größten Peinlichkeiten"]
+
 wessen_list = ["des frühen Louis XIV",
                "der zypriotischen Holzfäller",
                "des jungen Thomas Mann",
@@ -177,12 +178,12 @@ wowann_list = ["zur Zeit der Kirschblüte",
                "und bewegt dabei durch seine eindringlichen Schilderungen der Buxtehuder Nachkriegszeit",
                "und spart dabei auch nicht mit Referenzen zu Thomas Mann und anderen Literaten der Weimarer Zeit",
                "",
-               "und verstört dabei nicht nur eingefleischte Krimifans, sondern auch alle anderen, die sich gehobene Lektüre erhofft hatten"
+               "und verstört dabei nicht nur eingefleischte Krimifans, sondern auch alle anderen, die sich gehobene Lektüre erhofft hatten",
                "zur Zeit des dritten Reiches",
                "in unnachahmlicher Weise",
                "auf eindrucksvolle Art und Weise",
                "einfühlsam",
-               ". Eine übler und verstörrender Versuch, die Errungenschaften Gerhard Schröders während seiner Kanzlerschaft zu untergraben",
+               ". Eine übler und verstörender Versuch, die Errungenschaften Ludwig Erhards während seiner Kanzlerschaft zu untergraben",
                "und spart dabei auch nicht mit Kritik an den frühen Werken von Juli Zeh",
                ". Ein Must-Read für jeden, der sich auch mit aufkeimender Politikverdrossenheit noch für Fragen des Neokorporatismus begeistern kann.",
                "sensibel und zeitgemäß",
