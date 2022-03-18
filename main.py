@@ -11,8 +11,8 @@ from create_word_lists import *
 
 
 BOOK_TITLE_TEMPLATE = Template("""
-                <p style = "font-size:24px;">${book_title}</p>
-                <p>von ${name}</p>
+                <h2> ${book_title} </h2>
+                <h3>von ${name}</h3>
                 <p>${sentence}</p>
 """)
 
@@ -37,7 +37,7 @@ def homepage():
                                            sentence = sentence)
     + """
                     <br>
-                <a href='/..' class="button" >Blick ins Feuilleton!</a>
+                <a id="button" href='/..' class="button" >Blick ins Feuilleton!</a>
                          </body>
     
     """)

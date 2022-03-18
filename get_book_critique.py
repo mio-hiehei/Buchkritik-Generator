@@ -2,6 +2,7 @@ import random
 import names
 
 
+possessiv = ""
 def get_book_critique(book_title_list,
                       adjective_list,
                       objekt_list,
@@ -37,9 +38,7 @@ def get_book_critique(book_title_list,
     elif objekt[0][1] == "m" and gender_author == "female":
         possessiv = "seinem"
 
-
     sentence = f"In {possessiv} {adjective} {objekt[0][0]} {verb[0][0]} {name} {verb[0][1]} {was} {wessen} {wowann}."
-
 
     critique_content = {
         "book_title": book_title,
